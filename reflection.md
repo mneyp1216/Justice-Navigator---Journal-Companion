@@ -14,6 +14,9 @@
 - Submitted W8D2 project for the team with indication of the new project for our Capstone.
 - Created the proper documents to ensure that we all remain on task.
 - Created a Google docs that is accessible by the entire team.
+- I have updated the README with the other required sections: Team members, Responsible AI, User Instructions and placeholders for Prompt Library (Roland) and Featured Spec (currently assignned to MW but I will assist as needed)
+  
+ @Miquel assignment W9D1 states we have to use the specific file names src/app.py and rules.py. We currently have it listed as python journal_companion.py
 
 ## Roland
 
