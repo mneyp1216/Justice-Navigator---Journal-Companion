@@ -6,7 +6,8 @@ import datetime
 from colorama import init, Fore, Back, Style      # type: ignore   
 import colorama                                   # type: ignore
 
-autoreset=True
+# auto reset to bring codes back to original coloring
+autoreset=True                                    
 
 def welcome_message():
     """introduction to journal"""
