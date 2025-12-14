@@ -118,3 +118,42 @@ Level | Numeric  |  Keywords                                |   Description     
 4     | 4        |  high, thriving, motivated, good, happy  |   High - Thriving, motivated, doing well|
 5     | 5        |  indifferent, neutral, ok, fine, meh     |   Indifferent - Neutral                 |
 =======================================================================================================
+
+###QUICK START###
+
+Get the Journal Companion running locally in just a few steps.
+
+1. Clone the repository
+-git clone https://github.com/
+-<your-org-or-username>/Justice-Navigator---Journal-Companion.git
+-cd Justice-Navigator---Journal-Companion
+
+2. Verify Python installation
+-Ensure Python 3.10 or higher is installed.
+-python3 --version
+
+3. (Optional) Create and activate a virtual environment
+-python3 -m venv venv
+-macOS / Linux:
+source venv/bin/activate
+-Windows:
+venv\Scripts\activate
+
+4. Install dependencies
+-pip install colorama pandas numpy openai
+
+5. Configure OpenAI API key
+-macOS / Linux:
+export OPENAI_API_KEY="your_api_key_here"
+-Windows (PowerShell):
+setx OPENAI_API_KEY "your_api_key_here"
+
+6. Run the application
+-python3 src/app.py
+
+7. Start journaling
+-Enter your name or preferred alias
+-Choose a journal option (daily, weekly, etc.)
+-Select your mood using a number or keyword
+-Receive a reflection prompt and encouragement
+-Journal entries are saved locally for later review
