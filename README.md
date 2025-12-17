@@ -169,3 +169,4 @@ setx OPENAI_API_KEY "your_api_key_here"
 | R1      | Transparency                | Fallback responses explain confusion rather than guessing |
 | R3      | Reliability                 | Clear user communication during outages                   |
 | R5      | Non-Deceptive Use           | Explicitly states insights are not diagnostic             |
+| ------- | --------------------------- | --------------------------------------------------------- |
