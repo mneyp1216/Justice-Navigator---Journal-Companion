@@ -87,7 +87,7 @@ Input “banana” - Returns safe default prompt.
 
 ## Output
 
--motivation quote + journal prompt
+- motivation quote + journal prompt
 
 ## Rule Behavior Documentation
 
@@ -97,13 +97,14 @@ Input “banana” - Returns safe default prompt.
 
 - The Journal Companion uses structured decision table with 4 valid rules and 1 default rule. Each rule had multiple input variables for user convenience.
 =========================================================================================================
-Rule#   |   Menu Option        |Valid Input Values    | Description                                     |
+Rule#   |   Menu Option        | Valid Input Values   | Description                                     |
 =========================================================================================================
-R1      |   Daily Reflection   |1, one, daily         | Start daily reflection with mood assessment     |
-R2      |   Weekly Check-in    |2, two, weekly        | Complete a weekly reflection                    |
-R3      |   View Previous Entry|3, three, view        | Display saved journal entries                   |
-R4      |   Exit Program       |4, four, exit, quit   | Exit application gracefully                     |
-Default |   Invalid Input      |Any other value       | Shows error message and increment error counter |
+R1      |   Daily Reflection   | 1, one, daily        | Start daily reflection with mood assessment     |
+R2      |   Weekly Check-in    | 2, two, weekly       | Complete a weekly reflection                    |
+R3      |   View Previous Entry| 3, three, view       | Display saved journal entries                   |
+R4      |   Chatbot Companion  | 4, four, chat        | Chat with Companion                             |
+R5      |   Exit Program       | 5, five, chat        | Exit application gracefully                     |
+Default |   Invalid Input      | Any other value      | Shows error message and increment error counter |
 =========================================================================================================
 
 #### Mood Assessment Scale Inputs
@@ -112,20 +113,19 @@ Default |   Invalid Input      |Any other value       | Shows error message and 
 =======================================================================================================
 Level | Numeric  |  Keywords                                |   Description                           |
 =======================================================================================================
-1     | 1        | critical, distress, crisis, overwhelmed  |  Critical - Distress, Crisis Indicator  |
+1     | 1        |  very low, horrible, depressed           |   Very Low - Terrible, awful, hopeless  |
 2     | 2        |  low, struggling, stressed, heavy, sad   |   Low - Struggling, stressed, heavy     |
-3     | 3        |  mid, okay, medium, mixed, alright       |   Mid - Okay, some good/ some strain    |
+3     | 3        |  neutral, okay, meh, mixed, alright      |   Mid - Okay, Alright, So-So, fine      |
 4     | 4        |  high, thriving, motivated, good, happy  |   High - Thriving, motivated, doing well|
-5     | 5        |  indifferent, neutral, ok, fine, meh     |   Indifferent - Neutral                 |
+5     | 5        |  very high, excellent, amazing, great    |   Very High - Fantastic, wonderful      |
 =======================================================================================================
 
-###QUICK START###
+## QUICK START
 
 Get the Journal Companion running locally in just a few steps.
 
 1. Clone the repository
--git clone https://github.com/
--<your-org-or-username>/Justice-Navigator---Journal-Companion.git
+-git clone <https://github.com/mneyp1216/Justice-Navigator---Journal-Companion>
 -cd Justice-Navigator---Journal-Companion
 
 2. Verify Python installation
@@ -158,7 +158,7 @@ setx OPENAI_API_KEY "your_api_key_here"
 -Receive a reflection prompt and encouragement
 -Journal entries are saved locally for later review
 
-####Risk Table##
+## Risk Table
 
 | Risk ID | Ethical Principle Addressed | How It’s Applied                                          |
 | ------- | --------------------------- | --------------------------------------------------------- |
@@ -169,6 +169,3 @@ setx OPENAI_API_KEY "your_api_key_here"
 | R1      | Transparency                | Fallback responses explain confusion rather than guessing |
 | R3      | Reliability                 | Clear user communication during outages                   |
 | R5      | Non-Deceptive Use           | Explicitly states insights are not diagnostic             |
-
-
-
