@@ -157,3 +157,18 @@ setx OPENAI_API_KEY "your_api_key_here"
 -Select your mood using a number or keyword
 -Receive a reflection prompt and encouragement
 -Journal entries are saved locally for later review
+
+####Risk Table##
+
+| Risk ID | Ethical Principle Addressed | How It’s Applied                                          |
+| ------- | --------------------------- | --------------------------------------------------------- |
+| R2      | Harm Prevention             | Empathetic prompt design and restricted tone              |
+| R4      | Data Minimization           | Only essential, non-identifiable data stored              |
+| R6      | Human Oversight             | Clear boundaries: tool ≠ therapist                        |
+| R9      | Fairness & Bias Reduction   | Neutral, non-assumptive language constraints              |
+| R1      | Transparency                | Fallback responses explain confusion rather than guessing |
+| R3      | Reliability                 | Clear user communication during outages                   |
+| R5      | Non-Deceptive Use           | Explicitly states insights are not diagnostic             |
+
+
+
